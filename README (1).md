@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Image Manipulation tool is a command-line application written in Java that processes and manipulates .ppm (Portable PixMap) images. It employs several classes and interfaces to provide a rich set of image manipulation features.
+The Image Manipulation tool is a command-line application written in Java that processes and manipulates .ppm (Portable PixMap) images.
 
 
 
@@ -16,10 +16,14 @@ The project is organized into a handful of classes, each with a specific role:
 - `ImageUtil` main method: This is the application's entry point and acts as a controller. It waits for the user's input, interprets it, and executes the corresponding commands.
 
 
+
+
 ## Prerequisites
 
 - Java Runtime Environment (JRE)
 - PPM image file (P3 format)
+
+
 
 
 ## Usage
@@ -33,6 +37,10 @@ After compiling,start the program with the following command:
 javac imageManipulation/*.java
 ```
 Upon starting, you'll see a command prompt ">". You can enter commands there.
+
+
+
+
 ## Commands
 - `load <imagePath> <imageName>`: Load an image from a file at `<imagePath>` and assigns it the name `<imageName>` for future reference.
 - `save <imageName> <destinationPath>`: Save the image named `<imageName>` to a file at `<destinationPath>`.
@@ -46,6 +54,14 @@ Upon starting, you'll see a command prompt ">". You can enter commands there.
 - `luma-component <sourceImageName> <destinationImageName>`: Extract the luma (perceived brightness) of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
 - `quit`: Exit the program.
 
-## Running a Script of Commands
 
+
+## Script Runner
+While you can type any command manualy, you also can prepare a script file with all commands and use a pipe to feed these commands into the program. Each command should be on a new line. Here's an example script:
+```termnial
+load /Users/user/Desktop/image.ppm blackbuck
+brighten 50 blackbuck blackbuck_brightened
+save blackbuck_brightened /Users/user/Desktop/blackbuck_brightened_50.ppm
+quit
+```
 
