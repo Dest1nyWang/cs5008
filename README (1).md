@@ -75,4 +75,5 @@ If there's an error while executing a command, the program will print an error m
 
 Remember, if you want to manipulate an image, the first step is always to load a P3 PPM file with correct path into the program using the `load` command.
 
-## Script Runner
+## Exiting the program
+If you want to exit the program, you can simply enter `quit` at the command prompt or include `quit` at the end of your script.
