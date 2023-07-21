@@ -23,12 +23,16 @@ The project is organized into a handful of classes, each with a specific role:
 
 
 ## Usage
+Navigate to the directory containing the compiled Java classes and then compiling.
 Compiling:
 ```terminal
 javac imageManipulation/*.java
 ```
-
-
+After compiling,start the program with the following command:
+```terminal
+javac imageManipulation/*.java
+```
+Upon starting, you'll see a command prompt ">". You can enter commands there.
 ## Commands
 - 'load' <imagePath> <imageName>: Load an image from a file at <imagePath> and assigns it the name <imageName> for future reference.
 - save <imageName> <destinationPath>: Save the image named <imageName> to a file at <destinationPath>.
