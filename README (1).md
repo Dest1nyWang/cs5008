@@ -10,10 +10,10 @@ The Image Manipulation tool is a command-line application written in Java that p
 
 The project is organized into a handful of classes, each with a specific role:
 
-- Pixel: This class represents a pixel in an image. Each pixel has red, green, and blue components.
-- ImageManipulator: This is the core class that manages the images. It maintains a map of image names to images. It exposes methods to load, save, brighten, darken, and adjust different color components of images.
-- ImageUtil: This class contains utility methods to read and write a PPM image from/to file. It also includes a method to copy an image.
-- ImageUtil main method: This is the application's entry point and acts as a controller. It waits for the user's input, interprets it, and executes the corresponding commands.
+- `Pixel`: This class represents a pixel in an image. Each pixel has red, green, and blue components.
+- `ImageManipulator`: This is the core class that manages the images. It maintains a map of image names to images. It exposes methods to load, save, brighten, darken, and adjust different color components of images.
+- `ImageUtil`: This class contains utility methods to read and write a PPM image from/to file. It also includes a method to copy an image.
+- `ImageUtil` main method: This is the application's entry point and acts as a controller. It waits for the user's input, interprets it, and executes the corresponding commands.
 
 
 ## Prerequisites
