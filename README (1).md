@@ -34,17 +34,17 @@ javac imageManipulation/*.java
 ```
 Upon starting, you'll see a command prompt ">". You can enter commands there.
 ## Commands
-- 'load' <imagePath> <imageName>: Load an image from a file at <imagePath> and assigns it the name <imageName> for future reference.
-- save <imageName> <destinationPath>: Save the image named <imageName> to a file at <destinationPath>.
-- brighten <increment> <sourceImageName> <destinationImageName>: Brighten the image named <sourceImageName> by the amount <increment> and store the result as <destinationImageName>.
-- darken <decrement> <sourceImageName> <destinationImageName>: Darken the image named <sourceImageName> by the amount <decrement> and store the result as <destinationImageName>.
-- red-component <sourceImageName> <destinationImageName>: Extract the red component of the image named <sourceImageName> and store the result as <destinationImageName>.
-- green-component <sourceImageName> <destinationImageName>: Extract the green component of the image named <sourceImageName> and store the result as <destinationImageName>.
-- blue-component <sourceImageName> <destinationImageName>: Extract the blue component of the image named <sourceImageName> and store the result as <destinationImageName>.
-- value-component <sourceImageName> <destinationImageName>: Extract the value (max of RGB components) of the image named <sourceImageName> and store the result as <destinationImageName>.
-- intensity-component <sourceImageName> <destinationImageName>: Extract the intensity (average of RGB components) of the image named <sourceImageName> and store the result as <destinationImageName>.
-- luma-component <sourceImageName> <destinationImageName>: Extract the luma (perceived brightness) of the image named <sourceImageName> and store the result as <destinationImageName>.
-- quit: Exit the program.
+- `load <imagePath> <imageName>`: Load an image from a file at `<imagePath>` and assigns it the name `<imageName>` for future reference.
+- `save <imageName> <destinationPath>`: Save the image named `<imageName>` to a file at `<destinationPath>`.
+- `brighten <increment> <sourceImageName> <destinationImageName>`: Brighten the image named `<sourceImageName>` by the amount `<increment>` and store the result as `<destinationImageName>`.
+- `darken <decrement> <sourceImageName> <destinationImageName>`: Darken the image named `<sourceImageName>` by the amount `<decrement>` and store the result as `<destinationImageName>`.
+- `red-component <sourceImageName> <destinationImageName>`: Extract the red component of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `green-component <sourceImageName> <destinationImageName>`: Extract the green component of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `blue-component <sourceImageName> <destinationImageName>`: Extract the blue component of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `value-component <sourceImageName> <destinationImageName>`: Extract the value (max of RGB components) of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `intensity-component <sourceImageName> <destinationImageName>`: Extract the intensity (average of RGB components) of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `luma-component <sourceImageName> <destinationImageName>`: Extract the luma (perceived brightness) of the image named `<sourceImageName>` and store the result as `<destinationImageName>`.
+- `quit`: Exit the program.
 
 ## Running a Script of Commands
 
