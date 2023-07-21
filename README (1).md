@@ -64,4 +64,15 @@ brighten 50 blackbuck blackbuck_brightened
 save blackbuck_brightened /Users/user/Desktop/blackbuck_brightened_50.ppm
 quit
 ```
+You can save these commands in a text file (commands.txt). Now, you can run this script using the following command:
+```terminal
+cat commands.txt | java imageManipulation.ImageUtil
+```
 
+
+## Error Handling
+If there's an error while executing a command, the program will print an error message detailing what went wrong.For example, if you tried to load a file that doesn't exist or isn't a valid P3 PPM file, the program would let you see an error message detailing what went wrong.
+
+Remember, if you want to manipulate an image, the first step is always to load a P3 PPM file with correct path into the program using the `load` command.
+
+## Script Runner
