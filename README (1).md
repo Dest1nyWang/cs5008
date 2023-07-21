@@ -24,7 +24,7 @@ The project is organized into a handful of classes, each with a specific role:
 
 ## Usage
 Compiling:
-'''bash
+'''console
 javac imageManipulation/*.java
 '''
 
