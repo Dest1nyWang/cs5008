@@ -23,6 +23,11 @@ The project is organized into a handful of classes, each with a specific role:
 
 
 ## Usage
+Compiling:
+'''
+javac imageManipulation/*.java
+'''
+
 
 ## Commands
 - 'load' <imagePath> <imageName>: Load an image from a file at <imagePath> and assigns it the name <imageName> for future reference.
