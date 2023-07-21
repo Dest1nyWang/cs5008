@@ -34,7 +34,7 @@ javac imageManipulation/*.java
 ```
 After compiling,start the program with the following command:
 ```terminal
-javac imageManipulation/*.java
+java imageManipulation.ImageUtil
 ```
 Upon starting, you'll see a command prompt ">". You can enter commands there.
 
