@@ -79,6 +79,7 @@ Remember, if you want to manipulate an image, the first step is always to load a
 If you want to exit the program, you can simply enter `quit` at the command prompt or include `quit` at the end of your script.
 
 ## Image Citation
-- Image: bc-flowers.ppm. (2016). Retrieved from https://cs.berea.edu//courses/csc226/tasks/bc-flowers.ppm. Accessed on July 19, 2023.
+- Image: bc-flowers.ppm. (2016). Retrieved from [https://cs.berea.edu//courses/csc226/tasks/L3.ppm.html](https://cs.berea.edu//courses/csc226/tasks/L3.ppm.html) Accessed on July 19, 2023.
 - [bc-flowers.ppm](https://cs.berea.edu//courses/csc226/tasks/bc-flowers.ppm)
+- Image: blackbuck.ascii.ppm. (2011). Retrieved from https://people.sc.fsu.edu/~jburkardt/data/ppma/ppma.html Accessed on July 19, 2023.
 
